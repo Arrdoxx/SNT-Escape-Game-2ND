@@ -1,0 +1,29 @@
+body {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    min-width: 1900px;
+    min-height: 900px;
+    color: white;
+}
+
+#bck {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 1900px;
+    height: 900px;  
+}
+
+#lime {
+    position: absolute;
+    width: 500px;
+    height: 500px;        
+    top: 420px;    
+    left: 20px;    
+    z-index: 1000;
+}
